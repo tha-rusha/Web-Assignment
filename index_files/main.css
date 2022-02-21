@@ -122,11 +122,11 @@ body {
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
-/*footer cover*/
+/*footer*/
 .footer-dark {
   padding:50px 0;
   color:#f0f9ff;
-  background-color:#040D18;
+  background-color:#282d32;
   border-radius: 2px;
 }
 
@@ -143,7 +143,6 @@ body {
   line-height:1.6;
   font-size:17px;
   margin-bottom:0;
-  margin-left: 100px;
 }
 
 .footer-dark ul a {
@@ -153,8 +152,8 @@ body {
 }
 
 .footer-dark ul a:hover {
-  color: #f90;
-  opacity:0.8;
+  color: #e60b0b;
+  opacity:1;
 }
 
 @media (max-width:767px) {
@@ -211,17 +210,17 @@ body {
 .footer-dark .copyright {
   text-align:center;
   padding-top:24px;
-  opacity:0.5;
+  opacity:0.3;
   font-size:16px;
   margin-bottom:0;
 }
 
 .threewaysidecolumn {   
   float: left;
-  width: 10%;
+  width: 25%;
 }
 .threewaymiddlecolumn {   
   float: left;
-  width: 80%;
+  width: 50%;
 }
 
