@@ -6,7 +6,8 @@ input[type=text], input[type=password] {
   display: inline-block;
   border: none;
   background: #f1f1f1;
-  border-radius: 18px;
+  border-radius: 5px;
+  font-family: arial;
 }
 
 /* Add a background color when the inputs get focus */
@@ -105,5 +106,11 @@ hr {
 @media screen and (max-width: 300px) {
   .cancelbtn, .signupbtn {
      width: 100%;
+  }
+  .formfont{
+    font-family: arial;
+  }
+  .col1{
+    width: 100px;
   }
 }
