@@ -6,7 +6,8 @@ input[type=text], input[type=password] {
   display: inline-block;
   border: none;
   background: #f1f1f1;
-  border-radius: 18px;
+  border-radius: 5px;
+  font-family: arial;
 }
 
 /* Add a background color when the inputs get focus */
@@ -19,12 +20,14 @@ input[type=text]:focus, input[type=password]:focus {
 button {
   background-color: #04AA6D;
   color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
+  /*padding: 14px 20px;
+  margin: 8px 0;*/
   border: none;
   cursor: pointer;
-  width: 100%;
+ /* width: 100%;*/
   opacity: 0.9;
+  float: right;
+  border-radius: 5px;
 }
 
 button:hover {
@@ -40,7 +43,7 @@ button:hover {
 /* Float cancel and signup buttons and add an equal width */
 .cancelbtn, .signupbtn {
   float: left;
-  width: 50%;
+  width: 40%;
 }
 
 /* Add padding to container elements */
@@ -103,5 +106,11 @@ hr {
 @media screen and (max-width: 300px) {
   .cancelbtn, .signupbtn {
      width: 100%;
+  }
+  .formfont{
+    font-family: arial;
+  }
+  .col1{
+    width: 100px;
   }
 }
