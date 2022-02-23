@@ -20,7 +20,7 @@
   font-weight: 600;
 }
 
-/* .card ul li a{
+.card ul li a{
   text-decoration: none;
   display: inline-block;
   background: #C5C6C7;
@@ -32,7 +32,7 @@
   border-radius: 6px;
   border: 2px solid #0B0C10;
   transition: all 0.3s ease;
-} */
+}
 
 .card ul li a:hover{
   color: #8c8e91;
