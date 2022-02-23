@@ -8,3 +8,35 @@
     text-align: center;
     font-weight: bold;
 }
+
+.sft img{
+  display: flex;
+  height: 200px;
+  width: 900px;
+  object-fit: cover;
+ 
+}
+
+.bst img{
+  display: flex;
+  height: 200px;
+  width: 900px;
+  object-fit: cover;
+
+}
+
+.rightcol{
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+.et img{
+  display: flex;
+  height: 200px;
+  width: 900px;
+  object-fit: cover;
+
+}
+
