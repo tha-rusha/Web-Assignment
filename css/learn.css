@@ -45,17 +45,20 @@
 }
 
 .sft img{
+  
   display: flex;
-  height: 200px;
-  width: 900px;
+  height: 250px;
+  width: 1280px;
+  border-radius: 10px;
   object-fit: cover;
  
 }
 
 .bst img{
   display: flex;
-  height: 200px;
-  width: 900px;
+  height: 250px;
+  width: 1280px;
+  border-radius: 10px;
   object-fit: cover;
 
 }
@@ -69,8 +72,9 @@
 
 .et img{
   display: flex;
-  height: 200px;
-  width: 900px;
+  height: 250px;
+  width: 1280px;
+  border-radius: 10px;
   object-fit: cover;
 
 }
