@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+  }
+/* heading */
+
+.leftcolumn h1{
+    margin: 20px 0px;
+    text-align: center;
+}
