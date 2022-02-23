@@ -12,9 +12,10 @@
 	$lname =$_POST["lname"];
 	$email=$_POST["email"];
 	$school=$_POST["school"];
+	$password=$_POST["psw"];
 	 echo "$fname";
 	$con=mysqli_connect($host,"root","","ceyloneducation_db");
-	$sql="INSERT INTO registration(Fname,Lname,Email,School) VALUES ('$fname','$lname','$email','$school')";
+	$sql="INSERT INTO registration(Fname,Lname,Email,School,Password) VALUES ('$fname','$lname','$email','$school','$password')";
 	if($con){
 		mysqli_query($con,$sql);
 	}else{
