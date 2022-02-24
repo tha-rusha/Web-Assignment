@@ -17,6 +17,24 @@
     font-weight: bold;
 }
 
+.card .sfth2 {
+  background-color: rgb(37, 222, 222);
+  padding: 5px 15px;
+  border-radius: 6px;
+}
+
+.card .bsth2 {
+  background-color: rgb(35, 227, 150);
+  padding: 5px 15px;
+  border-radius: 6px;
+}
+
+.card .eth2 {
+  background-color: rgb(117, 106, 237);
+  padding: 5px 15px;
+  border-radius: 6px;
+}
+
 .card h4{
   margin-top: 20px;
   margin-left: 30px;
