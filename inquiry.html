@@ -2,7 +2,7 @@
 <html>
 <head>
 <!-- <link rel="stylesheet" href="navigation.css"> -->
-<link rel="stylesheet" href="./css/inquiry.css"
+
 <!-- boostrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="css/social.css">
 <!--footer social css -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<link rel="stylesheet" href="./css/inquiry.css"
 </head>
 <body>
 
@@ -60,83 +60,41 @@
   </div>
 </nav>
 <!-- navigation end -->
-
+<br>    
 <!-- dilan part -->
-
+<h3 class="h3">Inquiry Form
+</h3>
+<h2 class="h2">Get in Touch With Us!
+  <div class="spinner-border text-danger" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+</h2>
 <div class="row">
-  <div class="leftcolumn" style="width: 1143px;">
-    
-    <div class="card">
-      <h2>Get in Touch With Us!</h2>
-      <br>
-      <div class="container" style="height:753px; width: 300px;">
-      <form action="action_page.php">
-        
-          <label for="name">Name</label>
-        <input type="text" id="name" name="uname" placeholder="Enter Your Name ">
-        
-        <br>
-        
-          <label for="email">Email</label>
-        <input type="text" id="email" name="email" placeholder="Enter Your Email">
-        
-
-        <br>
-        
-          <label for="subject">Subject</label>
-        <input type="text" id="subject" name="subject" placeholder="Enter Your Subject">
-       
-
-        <br>
-        
-          <label for="message">Message</label>
-          <textarea id="message" name="message" placeholder="Enter Your Message" style="height: 200px;"></textarea>
-        
-        <br>
-        <input type="submit" value="Submit">
-        <br>
-        <input type="clear" value="Clear">
-      </form>
-      </div>
-      </div>
-      </div>
-  <div class="rightcolumn" style="height: 600px;; width: 380px;">
-    <div class="card">
-      <h2>Contact Us</h2>
-      <br>
-      <div class="fakeimg" style="height:380px; width: 310px;"> 
-      <img src="./image/contact-us-1908762__340.png" width="260px">
-      <table>
-        <tr height="50px">
-          <th></th>
-          <th></th>
-          <th></th>
-          </tr>
-        <tr>
-          <td>Facebook </td>
-          <td>: Ceylon Education</td>
-        </tr>
-        <tr>
-          <td>Email </td>
-          <td>: ceylonedu@gmail.com</td>
-        </tr>
-        <tr>
-          <td>Telephone </td>
-          <td>: 0117896544/545</td>
-        </tr>
-        <tr>
-          <td>Location </td>
-          <td>:<a href="https://www.google.com/maps/place/6%C2%B051'18.5%22N+79%C2%B054'46.7%22E/@6.8551439,79.9042467,15z/data=!3m1!4b1!4m14!1m7!3m6!1s0x3ae2507105492fab:0x5adc83492aee3910!2sMaharagama!3b1!8m2!3d6.8510951!4d79.9212011!3m5!1s0x0:0xa0a8cac8abdec3ed!7e2!8m2!3d6.8551436!4d79.9129805"> Click Here</a></td>
-        </tr>
-      </table>
-      </div>
-     
-      
-      </div>
-    
-    <div class="card">
-      <img src="./image/134-1342012_contact-us-icon-png-transparent-png.png" width="300px">
-    </div>
+  <div class="col">
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label><br>
+    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+<br>
+    <label for="lname">Last Name</label><br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<br>
+    <label for="mail">E-mail </label><br>
+    <input type="text" id="mail" name="lastname" placeholder="Your e-mail..">
+<br>
+    <label for="subject">Subject </label><br>
+    <input type="text" id="subject" name="lastname" placeholder="Your Subject..">
+<br>
+    <label for="message">Your Message!</label><br>
+    <textarea id="message" name="message" placeholder="What exactly are you looking for?" style="height:200px"></textarea>
+<br>
+    <input type="submit" value="Submit">
+   
+    <input type="reset" value="Clear">
+  </form>
+  </div>
+</div>
+<div class="col " style="background-image: url(image/i.png);background-size:750px 580px;border-radius: ;" >
   </div>
 </div>
 
