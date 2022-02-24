@@ -32,8 +32,11 @@ input[type=submit]:hover {
   padding: 20px;
 }
 .h3{
+
   font-size: 40pt;
   text-align: left;
+  color: darkslategrey;
+  
 }
 .h2{
   text-align: center;
