@@ -1,15 +1,42 @@
-h2{
-    text-align: center;
-    text-decoration: underline;
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
-.container
-{
-    background-image: url("contact.jpg");
-    background-color: #b41919;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  /*background-color: #f2f2f2;*/
+  padding: 20px;
+}
+.h3{
+  font-size: 40pt;
+  text-align: left;
+}
+.h2{
+  text-align: center;
+  font-size: 32pt;
+  color: #dc3545;
 }
